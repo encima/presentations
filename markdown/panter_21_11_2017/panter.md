@@ -46,13 +46,7 @@ xd..,'.;dxxxoc;,:O0000OOx0XKXX0ko::cccc::odxdllcc:clodooc::;.'''.'...;c:;;;,,,
 '..'',:;;;;;o;'..';::ccc::::oKNNXXd'..........':dkO00O000O0OkOOO0Okdll:'......
 ;;;;;;;:cc:::'',;cccccc:::::c0XXXNd...'......',cdkO00KKKKKKXKOOkkkxool:,......
 ;;;;:cllllccc:ccc:::c:::::;::kXXNNd..........',:oxOk0KKKXXXXX0Oxxddooo:,......
-,;;:ccclccclc:ccccc:::::::;;;kXXXXd..........',;cldxO0KKKKKKKOOkddolll:,......
-';:cclllccccccccc::::::::;;;:xXXXXl..... .....',;:loxOO000000Okxkxdolc;;......
-..;:cccllcccccccc:::::;;;;;;;lKXXX;......  ....',;:cldkO0OO000OOkkdolc;,......
-...,:ccccccccc:::::::;;;;;;;;:OXXXc..    ..  ...,;::coxOO000000Okxxlcc;,......
-....,:ccccc::::::::::;;;;;;;;;d00K0k;........   '::lldkO0K0000OOOxolc:;'......
-.....';::::::::::;::;;;;;;;;;;ckkkkkOk;........,:loodxOOk0OOOOOkxolc::;'......
-..   ..;:::::::;;;;;;;;;;;;;;;;lxxxxkkOx,...':clooddxxkkddxxxdxxdl::::,'......
+
 
 ### Dr. Chris Gwilliams
 #### encima(27) - Github (Twitter)
@@ -90,13 +84,61 @@ AKA
 
 ---
 
+
+-> Breakdown <-
+=========
+
+
+* Data - What I am collecting, how I collect it and from where
+    * BONUS: FREE CODE
+* Details - What I am using it for and what I have found out
+    * BONUS: Private and personal details for free!
+* Dating - Some research I did on using Tinder and other areas I have applied this to
+    * BONUS: Awkward encounters
+
 -> So? <-
 =========
 
-We produce **2.5 EXAbytes** of data every **day**. A lot of this goes unnoticed and more than it should goes to corporations that use your data and privacy as a currency to access their service. 
+We produce **2.5 EXAbytes** of data every **day**. A lot of this goes unnoticed and is stored in the cloud. Why not take it back and find your own uses for it?
 
-It is yours and you have every right to take back control of it. 
+Cannot find a service that tracks you want? It is easy enough to make or find a product that kind of suits your needs. Ask me and I wil help.
 
+| **Time**     | **Music**  | **Exercise**   | **Movies**    |
+|------------|----------|--------------|------------|
+| Wakatime   | Spotify  | Runkeeper    | IMDb       |
+| Rescuetime | Last.fm  | Myfitnesspal | Letterboxd |
+| Toggle     | Libre.fm | Fitocracy    | Trakt.tv   |
+| Pomodoro   |          | Google Fit   | Eyehol.es  |
+|            |          | Apple Health |            |
+|            |          | Runtastic    |            |
+|            |          |              |            |
+|            |          |              |            |
+
+---
+
+-> Data <-
+=========
+
+* Heart Rate -  Hardware
+* Steps - Hardware
+* Sleep - Hardware
+* Locations - Swarm
+* Movies/TV - Eyehol.es
+* Images - Google Photoes
+* My face - MacroDroid
+* Brain waves - sometimes
+* Computer/mobile usage
+* More
+
+---
+
+-> Data <-
+=========
+
+Almost all of the data I collect is from the APIs of the sites I use. In some cases, I need to process a CSV or JSON file but I try and do this all in one dashboard.
+
+
+---
 ## I am not here to:
 
 * tell you Twitter/FB/Snapchat etc is evil
