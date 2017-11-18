@@ -62,3 +62,4 @@ I am a bit obsessed with data (maybe a narcissist?) so I want to show you how I 
 $ Say What?
 The Quantified Self, also known as lifelogging, is a movement to incorporate technology into data acquisition on aspects of a person's daily life in terms of inputs, states, and performance, whether mental or physical. In short, quantified self is self-knowledge through self-tracking with technology.
 --endshelloutput
+--newpage
