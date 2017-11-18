@@ -62,3 +62,37 @@ I am a bit obsessed with data (maybe a narcissist?) so I want to show you how I 
 $ Say What?
 The Quantified Self, also known as lifelogging, is a movement to incorporate technology into data acquisition on aspects of a person's daily life in terms of inputs, states, and performance, whether mental or physical. In short, quantified self is self-knowledge through self-tracking with technology.
 --endshelloutput
+--newpage
+
+--heading Data
+Popular Services:
+
+| **Time**   | **Music**| **Exercise** | **Movies** |
+|------------|----------|--------------|------------|
+| Wakatime   | Spotify  | Runkeeper    | IMDb       |
+| Rescuetime | Last.fm  | Myfitnesspal | Letterboxd |
+| Toggl      | Libre.fm | Fitocracy    | Trakt.tv   |
+| Pomodoro   |          | Google Fit   | Eyehol.es  |
+|            |          | Apple Health |            |
+|            |          | Runtastic    |            |
+|            |          |              |            |
+|            |          |              |            |
+
+--heading Data
+What I collect:
+
+* Heart rate
+* Sleep
+* Movies
+* Music
+* Exercise
+* Locations
+* Events
+--newpage
+
+--heading Data
+What to do with it:
+
+https://github.com/encima/qself
+
+https://gyrosco.pe/
