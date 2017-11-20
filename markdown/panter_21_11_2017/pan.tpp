@@ -289,14 +289,15 @@ $ But, this is the past...
 * What is the difference between online and offline interaction?
 * Can a person that says X to another person online say X to them in person?
   * Why? Why not?
-
---## Find number of active tinder users
 --newpage
 
 --heading Some of these have been answered:
-research from University of New York, a lot of citizen science. Some of it popularised by Aziz Ansari.
---## Add papers and findings
+* Yes, fake profiles exist but most tinder motivations related to offline dates
+  * http://www.sciencedirect.com/science/article/pii/S0736585316301216
+* Traditional dating beliefs do not always apply
+  * https://www.elsevier.com/connect/online-dating-the-psychology-and-reality
 --newpage
+
 --heading My approach
 * Modified a Tinder desktop client (for research)
 * Tracking brain activity and eye movement
@@ -313,7 +314,16 @@ DON'T WORRY...
 * ALL: DOGS!!!!
 --boldoff
 * ALL: Pics with friends, no more than 3
+* How many dates?
+---
+7
+* How soon should you meet?
+---
+Within 10 or so messages you should be able to determine this
+* Tinder is the modern day bar, that is it. Judge on face but dates and attraction happen in the real world
 --newpage
+
+--heading Next
 
 --heading Fin
 --huge Questions?
