@@ -49,6 +49,8 @@
 * CCTV set up outside my house
 * Some fool hit my car
 * Number plate is blurry. Police and insurance cannot help
+---
+--exec vlc Crash-Catch/data/crash.mp4 --start-time 35
 --## --exec xdg-open ~/Pictures/ICAT.png
 --newpage
 
@@ -59,6 +61,8 @@
 * Invert colours and apply Gaussian filter
 --color red
 --center PARTIAL MATCH!
+---
+--exec xdg-open ~/dev/Crash-Catch/data/saved.png
 --color white
 --newpage
 
@@ -278,7 +282,7 @@ $ But, this is the past...
 
 --heading Questions:
 --color white
-* X users on tinder, how many are eligible?
+* Estimated 100 million users on tinder, how many are eligible?
 * What do people look for?
 * What do people look at?
 * Does descrtiption matter?
@@ -302,7 +306,7 @@ DON'T WORRY...
 * Working on a new version with the new headless Chrome/FF and Tinder website.
 --newpage
 
---heading Tips
+--heading Some findings
 * GUYS: Do not look directly at the camera
 * GALS: Do look at the camera (high angles seem to be preferred)
 --boldon
