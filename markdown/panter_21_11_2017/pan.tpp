@@ -83,6 +83,8 @@ $ whoami
 ---
 Chris Gwilliams
 A Research Software Engineer with a love for sensors and IoT
+PhD: Using contextual knowledge to improve the quality and transmission time of sensed data
+Wears stupid shit (electronic and otherwise)
 ---
 $ whatdoyouwant
 ---
@@ -135,6 +137,28 @@ Popular Services:
 * https://www.goodreads.com/user/show/18614419-chris-gwilliams
 * Any calendar app
 * Vimwiki
+--newpage
+
+--heading Nerd Tools
+
+* TMUX
+  * tmux-resurrect
+  * tmux-continuum
+* NeoVim
+  * Vimwiki (Google Drive Sync)
+  * neorformat
+  * ag
+  * nerdtree
+  * more...
+* ZSH
+* Newsbeuter
+  * Read articles with SCLI
+* Pomodoro (sometimes)
+* Mopidy and ncmpcpp
+* i3
+
+--center https://github.com/encina/config
+
 --newpage
 
 --heading Data
