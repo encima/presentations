@@ -158,7 +158,16 @@ Popular Services:
 * i3
 
 --center https://github.com/encina/config
+--newpage
 
+--heading Hardware
+
+* WiFi scales
+* Pavlok personal punishment device
+* Fitness tracker
+* EEG
+* Life recorder (i.e. Autographer)
+* Yuzz.it device
 --newpage
 
 --heading Data
