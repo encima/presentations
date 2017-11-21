@@ -50,7 +50,7 @@
 * Some fool hit my car
 * Number plate is blurry. Police and insurance cannot help
 ---
---exec vlc Crash-Catch/data/crash.mp4 --start-time 35
+--exec vlc ~/dev/Crash-Catch/data/crash.mp4 --start-time 35
 --## --exec xdg-open ~/Pictures/ICAT.png
 --newpage
 
@@ -187,6 +187,7 @@ What I collect:
 * Mood - Vimwiki
 * Reading - Custom and Goodreads
 * Communications - IFTTT
+* Electronics usage - Rescuetime
 
 I do not collect: Food
 --newpage
@@ -203,6 +204,14 @@ I do not collect: Food
 | Been to    | 10,153 places              |
 | Watched    | 692 movies                 |
 | Walked     | 267k steps in Oct 2017     |
+
+Of course, I am a millenial, so I also have:
+* poor attention span 
+* lack of satisfaction in my life
+* high expectations
+* sense of self importance
+* keen to blame previous generation
+* too liberal
 --newpage
 --heading E.g.
 --ulon
@@ -218,6 +227,7 @@ What to do with it:
 * https://github.com/encima/qself
 * IFTTT
 * Gyroscope
+--huge MOAR DEMOS
 --newpage
 
 --heading Details
@@ -235,6 +245,7 @@ $ But, this is the past...
     * Sadly, yes. Bars. Many.
 * Can someone predict where I will go next?
     * Also yes. http://giusepperizzo.github.io/publications/Palumbo_Rizzo-RecTour2017.pdf
+---
 * Can decisions on where to go be made for me?
 --newpage
 
@@ -242,6 +253,10 @@ $ But, this is the past...
 
 * This is more than a journey of personal self discovery
 * I have identified good (and bad) habits
+---
+* Reddit browsing habits exceeded >6 hours a day at its peak
+* Certain alcoholic drinks reduced sleep quality but had the same level of drunkenness as others
+---
 * My memory is awful (as is my attention span)
 * Decisions made for me...blame the software
 * Remove spontaneity (unless I want it) and reduce procrastination
@@ -259,13 +274,20 @@ $ But, this is the past...
 * Context aware to do lists
 --newpage
 
+--heading Next?
+
+* Using my previous data to make a structured plan
+* Find a more common way to centralise the data and not rely on external sources
+* Food/drink or calorie tracking
+--newpage
+
 --heading Dating
 
-* Tinder is dating now (with Bumble, Grindr etc)
-* Huge disconnect between online and offline discussions
-* Studies show that anonymity brings out the worst in people
-  * This can also be true with online discussions even when not anonymous
-* So many people, so many potential matches. TOO MUCH CHOICE
+* What does a data obsessive do when they are single?
+  * Semantic analysis on messages on okcupid etc was the start of it
+* Basic critetia for matching, routine questionnaires developed from dates
+* Auto scheduled dates in blocks for efficiency
+--huge NOT ENOUGH, I NEED MORE
 --newpage
 
 --heading The Paradox of Choice
@@ -280,6 +302,15 @@ $ But, this is the past...
 --center If a decision is made, the chances are greater that they will be unsatisfied with it.
 --newpage
 
+--heading Tinder
+
+* Tinder is dating now (with Bumble, Grindr etc)
+* Huge differences between online and offline discussions (or are there?)
+* Studies show that anonymity brings out the worst in people
+  * This can also be true with online discussions even when not anonymous
+* So many people, so many potential matches. TOO MUCH CHOICE (or is there?)
+--newpage
+
 --heading Questions:
 --color white
 * Estimated 100 million users on tinder, how many are eligible?
@@ -292,22 +323,36 @@ $ But, this is the past...
 --newpage
 
 --heading Some of these have been answered:
+* People that say they are looking for X, typically are 
+* Of course pictures are important but description is as well
+* When tinder first started, 90% of users said they joined up because it was a game. Less now
 * Yes, fake profiles exist but most tinder motivations related to offline dates
   * http://www.sciencedirect.com/science/article/pii/S0736585316301216
 * Traditional dating beliefs do not always apply
   * https://www.elsevier.com/connect/online-dating-the-psychology-and-reality
 --newpage
 
---heading My approach
+--heading Not all good news!
+* As with traditional online dating, people have higher standards
+* A Tinder 'culture' has developed that leads people to believe it is too much effort
+* Ghosting is a thing now
+* Less connection between online meets means people can say/do things they would not offline
+--newpage 
+
+--heading Personal Experience
 * Modified a Tinder desktop client (for research)
 * Tracking brain activity and eye movement
 * Had to close source because the API is 'not official'
+* Auto swiping based on trivial criteria (description > N chars, >N pics, distance, age etc)
+* Message sent from preloaded dictionary of 'witty' intros. Alert when person responded.
 --horline
+---
 DON'T WORRY...
 * Working on a new version with the new headless Chrome/FF and Tinder website.
+
 --newpage
 
---heading Some findings
+--heading Specific Tinder Findings
 * GUYS: Do not look directly at the camera
 * GALS: Do look at the camera (high angles seem to be preferred)
 --boldon
@@ -323,7 +368,14 @@ Within 10 or so messages you should be able to determine this
 * Tinder is the modern day bar, that is it. Judge on face but dates and attraction happen in the real world
 --newpage
 
---heading Next
+--heading Research
+* Left UK before I could fully start trial
+* Interested in the difference between online/offline communication 
+* Also interested to confirm/deny tropes about people only looking for X
+* Correlate different areas, countries, genders
+* Most (not all) research is on straight relationships, would like to explore all
+--center BUT, it is ethically difficult
+--newpage
 
 --heading Fin
 --huge Questions?
