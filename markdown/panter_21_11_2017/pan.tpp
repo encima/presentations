@@ -71,6 +71,22 @@
 * No (free) API to search UK number plates
 * I found a site that takes the number plate as an argument to a GET request
 * Used python library 'Requests' to scrape and parse the output
+--beginoutput
+matches = []
+letters = string.ascii_letters[:26]
+f = open('../data/matches.txt', 'w')
+for plate in config.plates:
+    for a in letters:
+        for b in letters:
+            p = plate.format(a,b).lower()
+            print(p)
+            r = requests.get(config.url.format(p))
+            if r.status_code == 200 and "BMW" in r.text:
+                soup = BeautifulSoup(r.text, 'html.parser')
+                match = soup.find(id="searchResult")
+                print(match.text)
+                matches.append({'plate':p, 'car': match})
+--endoutput
 --color green
 --huge SUCCESS!
 --color white
@@ -92,7 +108,7 @@ Wears stupid shit (electronic and otherwise)
 ---
 $ whatdoyouwant
 ---
-I am a bit obsessed with data (maybe a narcissist?) so I want to show you how I cope with information overload
+I am a bit obsessed with data (maybe a narcissist?) so I want to show you how I cope with information overload and hear how you do as well
 --endshelloutput
 --newpage
 
@@ -161,7 +177,7 @@ Popular Services:
 * Mopidy and ncmpcpp
 * i3
 
---center https://github.com/encina/config
+--center https://github.com/encima/config
 --newpage
 
 --heading Hardware
@@ -170,6 +186,10 @@ Popular Services:
 * Pavlok personal punishment device
 * Fitness tracker
 * EEG
+--huge Let me show you
+---
+--exec vlc ~/Videos/eeg.mp4
+
 * Life recorder (i.e. Autographer)
 * Yuzz.it device
 --newpage
@@ -206,7 +226,7 @@ I do not collect: Food
 | Walked     | 267k steps in Oct 2017     |
 
 Of course, I am a millenial, so I also have:
-* poor attention span 
+* poor attention span
 * lack of satisfaction in my life
 * high expectations
 * sense of self importance
@@ -276,12 +296,12 @@ $ But, this is the past...
 
 --heading Next?
 
-* Using my previous data to make a structured plan
+* Using my previous data to make a structured plan for an hour/day
 * Find a more common way to centralise the data and not rely on external sources
 * Food/drink or calorie tracking
 --newpage
 
---heading Dating
+--heading Case Study: Dating
 
 * What does a data obsessive do when they are single?
   * Semantic analysis on messages on okcupid etc was the start of it
@@ -365,12 +385,12 @@ DON'T WORRY...
 * How soon should you meet?
 ---
 Within 10 or so messages you should be able to determine this
-* Tinder is the modern day bar, that is it. Judge on face but dates and attraction happen in the real world
+* Tinder is the modern day bar, that is it. Judge on face but dates and attraction happen in the real world. Use it like this.
 --newpage
 
 --heading Research
 * Left UK before I could fully start trial
-* Interested in the difference between online/offline communication 
+* Interested in the difference between online/offline communication
 * Also interested to confirm/deny tropes about people only looking for X
 * Correlate different areas, countries, genders
 * Most (not all) research is on straight relationships, would like to explore all
@@ -379,4 +399,3 @@ Within 10 or so messages you should be able to determine this
 
 --heading Fin
 --huge Questions?
---newpage
