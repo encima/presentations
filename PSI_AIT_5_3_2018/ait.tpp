@@ -1,5 +1,5 @@
 --author Dr. Chris Gwilliams
---title AIT - Optimising *all* the workflows
+--title AIT - Optimising from Keyboard to Cloud
 --title Or: Why you never need to leave the terminal
 --date 3rd March 2018
 --header OPTIMISE ALL THE THINGS
@@ -51,9 +51,8 @@
 * Partially to also learn about tools you use that I should be using
 * Stop me if:
   * Too basic/general
-  * Too technical
   * Questions
-  * I should leave
+  * Bored
 ---
 --newpage
 
@@ -72,7 +71,6 @@
 * Docker cannot do this satisfactorily
   * https://github.com/encima/basedev
 * Fun to freak out people at airports/coffee shops 
-  * bonus points if you mutter under your breath
 * The terminal is maybe *THE* most efficient piece of software:
 --color red
 --center ABUSE IT!
@@ -119,13 +117,14 @@ $ And then?
 
 So many things!
 
-* Time/Code Recording
-* Notes
-* Todos
-* Music
-* Shells and sessions
-* Plugins!
-* Package manager
+* Time/Code Recording (wakatime)
+* Notes (vimwiki)
+* Todos (todoist/vimwiki)
+* Search (ripgrep)
+* Music (ncmpcpp)
+* Shells and sessions (tmux)
+* Plugins! (vundle/oh-my-zsh/tpm)
+* Package manager (nix)
 
 --newpage
 
@@ -164,9 +163,91 @@ Hello, World?
 * Split the screen into Panes
 * Switch screens with a Window
 * Group related windows into a Session
+* Tmux-resurrect allows you to close, transport and restore sessions after restarts etc
 
----
+--newpage
 
 --heading Gitflow
 
+* Git on steroids, has bash/zsh/fish completion!
+* Basics:
+  1. Master is never to be pushed to and holds the latest PRODUCTION code
+  2. Develop is originally based off Master but holds the latest STABLE code
+  3. New features are created in a feature/ branch from the Develop branch
+  4. Features are tested in their branch and merged into Develop (after a code review)
+  5. New releases are done on a cycle with a release/ branch from Develop (tagged with the version #) and merged into Master
+
+--newpage
+
+--heading Git Hooks
+
+* Hooks folder inside your hidden .git dir 
+* Triggered to run after a number of actions
+---
+--exec vim ~/dev/psi/docs/.git/hooks/pre-commit.sample
+
+--newpage
+
+--heading Docker
+
+Since AIT uses Python primarily, Docker is a magical solution to the pain of distribution.
+
+--beginshelloutput
+$ docker build .
+$ docker run <TAG> <OPTIONAL COMMAND>
+$ docker push <TAG>
+# to remote repo 
+$ docker pull
+# searches all repos available
+$ docker login 
+# add new repo/defaults to dockerhub
+
+--endshelloutput
+
+--newpage 
+
+--heading Kubernetes
+
+A complex solution to a complex problem: Container orchestration for the masses.
+
+Basically: a cluster (and tools) that requires a lot of prerequisite knowledge but does a lot of the magic for you.
+
+Containers are deployed in pods and pods run in services. 
+
+Web management interface but most commands are provided through *kubectl*.
+
+All you need:
+* A very expensive, very powerful set of servers
+* A dev machine
+* Too much time
+* Faith in Google
+* A KUBECONFIG file (with server credentials) and kubectl
+
+--newpage 
+
+--heading Kubectl 
+
+--beginshelloutput
+$ kubectl get pods -n qa
+TODO copy output Here
+$ kubectl port-forward job-assembler-production-job-assembler-2763583453-6kss2 -n production 8080:1880
+Access at localhost:8080
+$ kubectl proxy
+Access web interface
+--endshelloutput
+
+--newpage
+
+--heading Deployments
+
+* Write YAML files 
+* Link to docker image
+* Add settings (ports, image policy)
+
+--beginshelloutput
+$ kubectl apply -f FILE.yaml
+TADA
+--endshelloutput
+
+--newpage
 
